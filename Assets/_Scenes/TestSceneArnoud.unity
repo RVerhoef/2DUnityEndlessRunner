@@ -116,7 +116,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_SortingLayerID: 3354001617
-  m_Sprite: {fileID: 21300000, guid: 99e937693719a42478dce93b88f34370, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 632d7a540b15c1646b7329118e1c24ad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &69897775
 Transform:
@@ -125,8 +125,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 69897773}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.178226978, y: -7.49099016, z: 0}
-  m_LocalScale: {x: 10, y: 5, z: 1}
+  m_LocalPosition: {x: 2.52297211, y: -5.43293858, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 1698964224}
   m_Father: {fileID: 0}
@@ -186,10 +186,10 @@ Animation:
   m_GameObject: {fileID: 69897773}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: aa928729f11b6974db315051c5e56c6c, type: 2}
+  m_Animation: {fileID: 7400000, guid: 8e37fd5c7d5cd8b4eb0f6d047021b2b1, type: 2}
   m_Animations:
-  - {fileID: 7400000, guid: aa928729f11b6974db315051c5e56c6c, type: 2}
-  - {fileID: 0}
+  - {fileID: 7400000, guid: 8e37fd5c7d5cd8b4eb0f6d047021b2b1, type: 2}
+  - {fileID: 7400000, guid: 37eda0c3cc8ee5541bfe8d37dfb24f23, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -232,6 +232,7 @@ GameObject:
   - 92: {fileID: 261711970}
   - 124: {fileID: 261711969}
   - 81: {fileID: 261711968}
+  - 82: {fileID: 261711973}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -300,6 +301,64 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!82 &261711973
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 261711967}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 17af4c73748537745b1d7d233059f65b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &875467100
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,10 +473,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 957113448}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: -.100025177, z: 0}
-  m_LocalScale: {x: 3.5, y: 3, z: 1}
+  m_LocalPosition: {x: -4.77799416, y: 2.39574575, z: 0}
+  m_LocalScale: {x: 1.75, y: 1.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1698964224}
 --- !u!114 &957113451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,9 +631,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1698964223}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0419290476, y: -.0279525761, z: 0}
-  m_LocalScale: {x: .100000001, y: .200000003, z: 1}
-  m_Children: []
+  m_LocalPosition: {x: .516508222, y: .270710945, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 957113450}
   m_Father: {fileID: 69897775}
 --- !u!212 &1698964225
 SpriteRenderer:
@@ -597,7 +657,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 1
   m_SortingLayerID: 3354001617
-  m_Sprite: {fileID: 21300000, guid: 57e5f5c69da9c7644a14393a052f9d8e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c3551df33d29abb46839f8e139c14164, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1698964226
 MonoBehaviour:
