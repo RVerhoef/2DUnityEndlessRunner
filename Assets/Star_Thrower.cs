@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Start_Shooter : MonoBehaviour {
+public class Star_Thrower : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
