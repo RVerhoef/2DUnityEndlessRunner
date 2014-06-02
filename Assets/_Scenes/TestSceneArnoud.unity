@@ -571,11 +571,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1178212575}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7aadd51ffe814b14a9bbda6cfb50c25b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Star: {fileID: 400000, guid: d7039f28cb8a87945b4134b7df901099, type: 2}
 --- !u!1 &1416920520
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,8 +707,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbdef8ea092ab924ba6e1901b2483405, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouse_pos: {x: 0, y: 0, z: 0}
-  object_pos: {x: 0, y: 0, z: 0}
+  mouse_pos: {x: 0, y: 0}
+  object_pos: {x: 0, y: 0}
   angle: 0
 --- !u!1 &1816346372
 GameObject:
