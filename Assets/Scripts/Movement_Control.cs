@@ -9,6 +9,6 @@ public class Movement_Control : MonoBehaviour {
 		animation.Play ("Run", PlayMode.StopAll);
 		//When the player presses down, he slides
 		if (Input.GetKeyDown ("down"))
-			animation.Play ("Crouch", PlayMode.StopAll);
+			animation.Play ("Slide_Ninja", PlayMode.StopAll);
 	}
 }
